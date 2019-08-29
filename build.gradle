@@ -44,7 +44,6 @@ tasks.withType(Test).all { testTask ->
     'BUILD_URL': System.getenv()['BUILD_URL']
   ]
   testTask.testLogging.showStandardStreams = true
-  testTask.exclude 'org/selenide/examples/google/classic_page_object/**/*'
   testTask.outputs.upToDateWhen { false }
 }
 

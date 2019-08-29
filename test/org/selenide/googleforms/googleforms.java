@@ -34,8 +34,6 @@ public class googleforms {
     String FormCurrentMonthByWords = fmt.format("%tB", cal).toString();
     String[] Movies = {"Terminator I", "Terminator II", "Commando", "Conan", "True Lies"};
 
-    // String BrName = System.getProperty("selenide.browser");
-
     // FRIST PAGE
     $(By.xpath("//*[@id='mG61Hd']/div/div[2]/div[2]/div[1]/div/div[2]/div[1]/div/label/div/div[2]/div/span")).click();
     $(By.xpath("//*[@id='mG61Hd']/div/div[2]/div[2]/div[1]/div/div[2]/div[4]/div/label/div/div[2]/div/span")).click();
